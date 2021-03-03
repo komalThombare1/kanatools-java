@@ -170,6 +170,7 @@ public class KanaAppraiser
         && eval_char <= ZENKAKU_NUMBER_LAST) {
             return true;
         }
+     System.out.println("test");
         return false;
     }
     //}}}
@@ -210,6 +211,7 @@ public class KanaAppraiser
     //{{{ boolean isHankakuAscii(char)
     public static boolean isHankakuAscii(char eval_char)
     {
+     System.out.println("test");
         if(eval_char >= HANKAKU_ASCII_FIRST
         && eval_char <= HANKAKU_ASCII_LAST) {
             return true;

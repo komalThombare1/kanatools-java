@@ -91,6 +91,7 @@ public class KanaAppraiser
     //{{{ boolean isHankakuKatakana(char)
     public static boolean isHankakuKatakana(char eval_char)
     {
+      System.out.println("test1");
         if(eval_char >= HANKAKU_KATAKANA_FIRST
         && eval_char <= HANKAKU_KATAKANA_LAST
         && eval_char != HANKAKU_PUNCTUATION_ONBIKI) {

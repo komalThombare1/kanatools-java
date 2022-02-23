@@ -21,6 +21,7 @@ class SampleKanaConverter
 			System.out.println("  java SampleKanaConverter ﾃｽﾄ");
 			System.out.println("  java SampleKanaConverter ﾃｽﾄ");
 			System.out.println("  java SampleKanaConverter ﾃｽﾄ");
+			System.out.println("  java SampleKanaConverter ﾃｽﾄ");
             return;
         }
         String input_string = args[0];

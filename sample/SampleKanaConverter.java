@@ -22,5 +22,6 @@ class SampleKanaConverter
         // Convert and print
         String output_string = KanaConverter.convertKana(input_string, sample_conversion_ops);
         System.out.println(output_string);
+        System.out.println(output_string);
     }
 }

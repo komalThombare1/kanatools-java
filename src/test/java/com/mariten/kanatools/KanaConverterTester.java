@@ -138,6 +138,9 @@ public abstract class KanaConverterTester
         } catch(Exception e) {
             System.out.println("Exception running PHP command:");
             System.out.println(e.getStackTrace().toString());
+            System.out.println();
+            System.out.println();
+            System.out.println();
         }
 
         // Check results
